@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 public class Java2UMLAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        Messages.showInfoMessage("", "Java2UML");
+        Messages.showInfoMessage("This is where the UML will appear", "Java2UML");
        /* ScriptPython sp = new ScriptPython();
         String msg1 = sp.runScript();
         Messages.showInfoMessage("Info"); */

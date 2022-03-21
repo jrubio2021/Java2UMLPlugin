@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 public class HelloWorldAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        Messages.showInfoMessage("Hello World", "Info");
+        //Messages.showInfoMessage("Hello World", "Info");
 
         Project currentProject = e.getProject();
         StringBuilder message =
@@ -19,9 +19,8 @@ public class HelloWorldAction extends AnAction {
             message.append("\nSelected****:").append(selectedElement);
         }
         String title = e.getPresentation().getDescription();
-        Messages.showMessageDialog(currentProject,
-                message.toString(),
-                title,
-                Messages.getInformationIcon());
+        Messages.showMessageDialog(currentProject, message.toString(), title, Messages.getInformationIcon());
+
+        System.out.println(message);
     }
 }
