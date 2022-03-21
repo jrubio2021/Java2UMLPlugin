@@ -1,11 +1,11 @@
 <idea-plugin>
     <id>org.example.JavatoUML</id>
     <name>Java2UML</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="Help@JuanandJose.com" url="http://JuanandJose.com">Juan &amp; Jose</vendor>
 
     <description><![CDATA[
     Use this plugin to get the best looking UML.<br>
-    <em>most HTML tags may be used</em>
+    <em>and we mean the best</em>
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
@@ -23,5 +23,9 @@
                 <add-to-group group-id="EditorPopupMenu" anchor="first" ></add-to-group>
                 <add-to-group group-id="ProjectViewPopupMenu" anchor="first" ></add-to-group>
             ></action>
+        <action id="HelloWorldAction" class="HelloWorldAction" text="Hello world Action">
+            <add-to-group group-id="ToolsMenu" anchor="first" ></add-to-group>
+        </action>
+
     </actions>
 </idea-plugin>
