@@ -1,10 +1,10 @@
 <idea-plugin>
     <id>org.example.JavatoUML</id>
-    <name>Plugin display name here</name>
+    <name>Java2UML</name>
     <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
+    Use this plugin to get the best looking UML.<br>
     <em>most HTML tags may be used</em>
     ]]></description>
 
