@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 public class HelloWorldAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        //Messages.showInfoMessage("Hello World", "Info");
+        Messages.showInfoMessage("Hello World", "Info");
 
         Project currentProject = e.getProject();
         StringBuilder message =

@@ -22,7 +22,9 @@
                 <add-to-group group-id="ToolsMenu" anchor="first" ></add-to-group>
                 <add-to-group group-id="EditorPopupMenu" anchor="first" ></add-to-group>
                 <add-to-group group-id="ProjectViewPopupMenu" anchor="first" ></add-to-group>
-            ></action>
+                <add-to-group group-id="InspectCodeGroup" anchor="first"></add-to-group>
+                <add-to-group group-id="RightToolbarSideGroup" anchor="first"></add-to-group>
+        </action>
         <action id="HelloWorldAction" class="HelloWorldAction" text="Hello world Action">
             <add-to-group group-id="ToolsMenu" anchor="first" ></add-to-group>
             <add-to-group group-id="EditorPopupMenu" anchor="first" ></add-to-group>
